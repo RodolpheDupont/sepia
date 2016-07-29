@@ -1,4 +1,5 @@
 <?php
+	$testAjout = "";
 	if(isset($_GET["erreur"])){
 		if ($_GET["erreur"]=="ok"){
 			$texte = "Votre paiement a &eacute;t&eacute; accept&eacute;.";
@@ -25,11 +26,12 @@
 <body>
 <table width="584" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td height="35"></td>
+    <td height="35"> </td>
   </tr>
   <tr>
     <td align="center" style="font-size:14px; font-weight:bold;"><?php echo $texte;?></td>
   </tr>
+  
 </table>
 </div>
 </body>
