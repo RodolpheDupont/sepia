@@ -1,4 +1,5 @@
 <?php
+	$ajout2 = "";
 	$testAjout = "";
 	if(isset($_GET["erreur"])){
 		if ($_GET["erreur"]=="ok"){
